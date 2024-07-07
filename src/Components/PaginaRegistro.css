@@ -1,0 +1,282 @@
+.container {
+    background-color: #AF33EA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.AV-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.letter {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.button-c {
+    color: #9333EA;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    border-radius: 6px 6px 6px;
+    border-color: white;
+    background: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 120px;
+    position: flex;
+    border: none;
+}
+
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #AF33EA ;
+}
+
+.img-dialogo3 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.container-dialogo3 {
+    margin-bottom: 24px;
+    width: 362px;
+    height: 184px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #A521A8;
+    padding: 10px;
+    height: 184px;
+    width: 362px;
+}
+
+.img-dialogo2 {
+    padding-bottom: 16px;
+}
+
+.letter5 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.letter6 {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.img-dialogo3 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.letter7 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.container-dialogo4 {
+    background: #BA33EA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    margin-top: 32px;
+   
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #9722CE;
+    padding: 16px;
+    width: 64px;
+    height: 32px;
+    border-radius: 6px;
+
+}
+
+.container-dialogo5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 16px;
+}
+
+.letter8 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-inline: 8px;
+}
+
+.letterAyuda8{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: left;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-inline: 8px;
+}
+.letter4 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    width: 227px;
+    height: 20px;
+    padding-top: 24px;
+}
+.polit-letter {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.contenedor-formulario {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Roboto, sans-serif;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    border: 1px solid #9CA3AF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #9CA3AF;
+    position: relative;
+    height: 54px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    color: #9333EA;;
+    font-size: 36px;
+}
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: mediumpurple;
+}
+  button[type="submit"] {
+    margin-top: 8px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 20px;
+    background-color: #9333EA;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    height: 58px;
+    width: 406px;
+  }
+
+  .letter-register {
+    color: #525252;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.label3{
+    display: block;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #7E22CE;
+    padding-bottom: 6px;
+    padding-top: 24px;
+    text-align: left;
+    border:none;
+    background: white;
+    
+  }

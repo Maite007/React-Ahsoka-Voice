@@ -1,0 +1,325 @@
+.container {
+    background-color: #AF33EA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+}
+
+.AV-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.letter {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+}
+
+.button-c {
+    color: #9333EA;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    border-radius: 6px 6px 6px;
+    border-color: white;
+    background: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 120px;
+    position: flex;
+    border: none;
+}
+
+.container-dialogo6 {
+    background: white;
+    width: 448px;
+    height: 528px;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.letter9 {
+    color:#6B21A8;
+    font-family: Montserrat, sans-serif;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    width: 448px;
+    height: 40px;
+}
+
+.login{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 448px;
+    height: 28px;
+    padding-top: 24px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+
+    border-radius: 4px;
+  } 
+
+  label {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #7E22CE;
+    padding-bottom: 6px;
+    padding-top: 24px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 24px;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999999;
+  }
+  
+  button[type="submit"] {
+    margin-top: 8px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 20px;
+    background-color: #9333EA;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .label1{
+    display: block;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #7E22CE;
+    padding-bottom: 6px;
+    padding-top: 24px;
+    text-align: right;
+    border:none;
+    background: white;
+    
+  }
+  
+  .label2{
+    display: block;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #7E22CE;
+    padding-bottom: 6px;
+    padding-top: 24px;
+    text-align: right;
+  }
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #AF33EA ;
+}
+
+
+.img-dialogo3 {
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.letter7 {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 7px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.container-dialogo4 {
+    background: #BA33EA;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #9722CE;
+    padding: 16px;
+    width: 64px;
+    height: 32px;
+    border-radius: 6px;
+
+}
+
+.container-dialogo5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 16px;
+}
+
+.letter8 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-inline: 8px;
+}
+
+.letterAyuda8{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: left;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-inline: 8px;
+}
+.letter4 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 24px;
+    
+}
+.boton-morado {
+    background: white;
+    border: none;
+    color: #9333EA;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .boton-morado:hover {
+    background-color: #801C90;
+    color: white;
+  }
+  
+  .boton-morado img {
+    margin-right: 10px;
+  }
+  
+  .boton-morado::before,
+  .boton-morado::after {
+    content: '';
+    position: absolute;
+    width: 40%; 
+    height: 1px; 
+    background-color: #D8B4FE;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-morado::before {
+    top: 50%; 
+    left: 0;
+  }
+  
+  .boton-morado::after {
+    top: 50%; 
+    right: 0;
+  }
+  
+  .boton-morado:hover::before,
+  .boton-morado:hover::after {
+    background-color: #000000;
+  }
+
+  .container-button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .boton-azul{
+    background: #2563EB;
+    border-color: #2563EB;
+    margin-right: 8px;
+    border: none;
+    border-radius: 6px;
+    width: 216px;
+    height: 36px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .boton-rojo{
+    background: #DC2626;
+    border-color: #DC2626;
+    margin-left: 8px;
+    border: none;
+    border-radius: 6px;
+    width: 216px;
+    height: 36px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .label3{
+    display: block;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #7E22CE;
+    padding-bottom: 6px;
+    padding-top: 24px;
+    text-align: left;
+    border:none;
+    background: white;
+    
+  }
+  
+  
