@@ -6,16 +6,11 @@ import fondo from '../assets/img/fondo.jpg'
 import avion from '../assets/img/avion.png'
 import paleta from '../assets/img/paleta.png'
 import mundo from '../assets/img/mundo.png'
-import '../Components/PaginaAterrizaje.css'
 import { HeaderComponent } from './HeaderComponent'
 import { FooterComponent } from './FooterComponent'
 import { Link } from 'react-router-dom'
 
 export const PaginaAterrizaje = () => {
-
-    const Comenzar = () => {
-        console.log('click');
-    }
 
     const MasInfo = () => {
         console.log('click');
@@ -35,14 +30,14 @@ export const PaginaAterrizaje = () => {
                         </div>
                     </div>
                     <div className=" bg-[#AF33EA] text-center p-8 w-full">
-                        <button className="bg-[#CE22BD] text-white py-4 px-5 rounded inline-flex items-center" onClick={Comenzar}>
-                            <img src={rayo} alt="" width="16px" height="16px" className="mr-2" />
+                        <Link className="bg-[#CE22BD] text-white py-4 px-5 rounded inline-flex items-center" to='/paginaPrincipal'>
+                            <img src={rayo} alt="paginaPrincipal" width="16px" height="16px" className="mr-2 w-4 h-4 my-auto"  />
                             Comenzar
-                        </button>
-                        <button className="bg-[#CE22BD] text-white py-4 px-5 rounded inline-flex items-center ml-4" onClick={MasInfo}>
+                        </Link>
+                        <Link className="bg-[#CE22BD] text-white py-4 px-5 rounded inline-flex items-center ml-4" onClick={MasInfo}>
                             <img src={img} alt="" width="16px" height="16px" className="mr-2" />
                             Más Info
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <Link to="#" className="block mx-auto">

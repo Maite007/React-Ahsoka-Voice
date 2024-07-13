@@ -11,11 +11,11 @@ export const FooterLogin = () => {
         <>
 
             <div className="bg-[#AF33EA] flex flex-col items-center justify-between p-10 w-full ">
-                <div className="AV-Container">
-                    <img className="img-dialogo3" src={rayo} alt="Logo" width="36px" height="36px" />
-                    <label className="letter7">AppName</label>
+                <div className="flex items-center">
+                <img className="pt-8 pb-4" src={rayo} alt="Logo" width="36px" height="36px" />
+                <label className="text-white text-2xl font-bold pl-1.5 text-center pt-5">AppName</label>
                 </div>
-                <div className="container-dialogo5">
+                <div className="grid grid-cols-4 pl-40 pb-11">
                     <label className="letter8">Acerca de Nosotros</label>
                     <label className="letter8">Términos y Condiciones</label>
                     <label className="letter8">Política de Privacidad</label>
@@ -23,18 +23,18 @@ export const FooterLogin = () => {
                 </div>
                 <div className="flex flex-col items-center">
                     <div className="grid grid-cols-3 gap-4 justify-items-center w-full">
-                    <div className="flex justify-center items-center p-4 bg-[#9722CE] w-20 h-16 rounded-md">
-                        <img src={foto} alt="Icon 1" width="24px" height="24px" />
-                    </div>
-                    <div className="flex justify-center items-center p-4 bg-[#9722CE] w-20 h-16 rounded-md">
-                        <img src={foto2} alt="Icon 2" width="24px" height="24px" />
-                    </div>
-                    <div className="flex justify-center items-center p-4 bg-[#9722CE] w-20 h-16 rounded-md">
-                        <img src={foto3} alt="Icon 3" width="24px" height="24px" />
-                    </div>
+                        <div className="flex justify-center items-center p-4 bg-[#9722CE] w-20 h-16 rounded-md">
+                            <img src={foto} alt="Icon 1" width="24px" height="24px" />
+                        </div>
+                        <div className="flex justify-center items-center p-4 bg-[#9722CE] w-20 h-16 rounded-md">
+                            <img src={foto2} alt="Icon 2" width="24px" height="24px" />
+                        </div>
+                        <div className="flex justify-center items-center p-4 bg-[#9722CE] w-20 h-16 rounded-md">
+                            <img src={foto3} alt="Icon 3" width="24px" height="24px" />
+                        </div>
                     </div>
                 </div>
-                <label className="letter4">© 2024 AV. Todos los derechos reservados.</label>
+                <label className="text-white font-normal text-lg p-6">© 2023 AV. Todos los derechos reservados.</label>
             </div>
         </>
     )
