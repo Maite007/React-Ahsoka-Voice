@@ -4,7 +4,7 @@ import pantalla from '../assets/img/pantalla.png'
 import foto1 from '../assets/img/1.png'
 import foto2 from '../assets/img/2.png'
 import foto3 from '../assets/img/3.png'
-import '../Components/Footer.css'
+
 
 
 export const FooterComponent = () => {
